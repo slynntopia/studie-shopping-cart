@@ -72,6 +72,5 @@ class TestOrderTable(unittest.TestCase):
 
         self.assertEqual(expected_outcome, dynamic_table)
 
-
 if __name__ == '__main__':
     unittest.main()

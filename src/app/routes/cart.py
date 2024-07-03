@@ -108,4 +108,6 @@ def calculate_product_sum_with_discount_util(products: list[dict[str, int | str]
     total_price = 0
     for price in prices:
         total_price += price
+        if price <= prices:
+            print(price)
     return total_price
